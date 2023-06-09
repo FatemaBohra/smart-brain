@@ -54,7 +54,7 @@ class App extends React.Component {
   onPictureSubmit = () => {
     this.setState({ imageUrl: this.state.input })
 
-    fetch('https://smart-brain-api-ywag.onrender.com/imageurl', {
+    fetch('https://smart-brain-m5x0.onrender.com/imageurl', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
