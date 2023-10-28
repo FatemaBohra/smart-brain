@@ -121,7 +121,7 @@ class App extends React.Component {
               <Register loadUser={this.loadUser} onRouteChange={this.onRouteChange} />
           )
         }
-        <ParticlesBg num={18} color="#c8c3cc" type="cobweb" bg={true} />
+        <ParticlesBg num={30} color="#fff" type="cobweb" bg={true} />
       </div>
     );
   }
